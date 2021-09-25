@@ -1,0 +1,57 @@
+:root {
+  --blue-color: #207398;
+  --sky-blue-color: #51e1ed;
+  --dark-blue-color: #03203c;
+}
+
+body {
+  background-color: var(--blue-color);
+}
+a {
+  color: var(--dark-blue-color);
+  text-decoration: none;
+}
+
+.list-item-inline {
+  display: inline;
+  margin: 0 1rem;
+}
+
+/*  */
+
+header h1 {
+  text-align: center;
+  width: 65%;
+  margin: 4rem auto;
+  color: #51e1ed;
+}
+/* section */
+section h2 {
+  background-color: var(--dark-blue-color);
+  color: var(--sky-blue-color);
+  text-align: center;
+  width: 70%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+section h2 a {
+  color: var(--sky-blue-color);
+}
+/* footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: var(--sky-blue-color);
+
+  text-align: center;
+  padding: 0.3rem 0rem;
+}
+.footer-header {
+  margin-bottom: 1rem;
+  font-size: larger;
+}
