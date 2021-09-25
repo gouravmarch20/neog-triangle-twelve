@@ -6,48 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./quiz.css">
 </head>
 
 <body>
+
+    <nav>
+        <div class="nav-brand">
+            <h1> <a href="../index.html"> Fun triangle</a></h1>
+
+        </div>
+
+
+
+        <ul class="nav-pills">
+            <li class="list-item-inline"><a href="../hypotenuse/hypotenuse.html" class="link ">Hypotenuse</a></li>
+            <li class="list-item-inline"><a href="./quiz.html" class="link link-active">Calculate Quiz</a></li>
+            <li class="list-item-inline "><a href="../area/area.html" class="link  ">Area </a></li>
+            <li class="list-item-inline"><a href="../isTriangle/index.html" class="link  ">Is triangle</a></li>
+
+        </ul>
+
+
+    </nav>
     <header>
         <h2>Traingle quiz </h2>
     </header>
     <section>
 
-        <form action="/action_page.php">
+        <form class="quiz-form">
+
             <p>In ΔABC, AB= 3 & BC = 4 then area of ΔABC is</p>
-              <input type="radio" id="html" name="fav_language" value="HTML">
-              <label for="html">6</label><br>
-              <input type="radio" id="css" name="fav_language" value="CSS">
-              <label for="css">5</label><br>
-              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-              <label for="javascript">3</label>
+              <input type="radio" id="area-option-one" name="area-is" value="6">
+              <label for="area-option-one">6</label><br>
+              <input type="radio" id="area-option-two" name="area-is" value="5">
+              <label for="area-option-two">5</label><br>
+              <input type="radio" id="area-option-three" name="area-is" value="3">
+              <label for="area-option-three">3</label>
 
             <br>
 
             <p>What is the sum of three angles of triangle ?</p>
-            <input type="radio" id="age1" name="age" value="30">
-            <label for="age1">360</label><br>
-            <input type="radio" id="age2" name="age" value="60">
-            <label for="age2">180</label><br>
-            <input type="radio" id="age3" name="age" value="100">
-            <label for="age3">90</label><br><br>
-            <input type="submit" value="Submit">
+            <input type="radio" id="sum-option-one" name="angle-is" value="360">
+            <label for="sum-option-one">360</label><br>
+
+            <input type="radio" id="sum-option-two" name="angle-is" value="180">
+            <label for="sum-option-two">180</label><br>
+
+            <input type="radio" id="sum-option-three" name="angle-is" value="90">
+            <label for="sum-option-three">90</label><br><br>
 
             <br>
             <p>In Equilateral triangle, Each angle is </p>
-            <input type="radio" id="age1" name="age" value="30">
-            <label for="age1">60</label><br>
-            <input type="radio" id="age2" name="age" value="60">
-            <label for="age2">90</label><br>
-            <input type="radio" id="age3" name="age" value="100">
-            <label for="age3">45</label><br><br>
-            <input type="submit" value="Submit">
-        </form>
+            <input type="radio" id="option-one" name="age" value="60">
+            <label for="option-one">60</label><br>
 
+            <input type="radio" id="option-two" name="age" value="90">
+            <label for="option-two">90</label><br>
+            <input type="radio" id="option-three" name="age" value="45">
+            <label for="option-three">45</label><br><br>
+        </form>
+        <button type="submit" id="sumit-answer-btn">Sumit</button>
 
 
     </section>
+
+    <!-- output -->
+    <p id="output">Your score will display here </p>
 
     <!-- Footer  -->
     <footer class="footer">
@@ -64,6 +93,8 @@
             </li>
         </ul>
     </footer>
+
+    <script src="./quiz.js"></script>
 </body>
 
 </html>

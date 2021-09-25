@@ -9,16 +9,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/hypotenuse.css">
+    <link rel="stylesheet" href="./hypotenuse.css">
 </head>
 
 <body>
+
+    <nav>
+        <div class="nav-brand">
+            <h1> <a href="../index.html"> Fun triangle</a></h1>
+
+        </div>
+
+
+        <ul class="nav-pills">
+            <li class="list-item-inline"><a href="./hypotenuse.html" class="link link-active">Hypotenuse</a>
+            <li class="list-item-inline"><a href="../quiz/quiz.html" class="link ">Quiz</a></li>
+            <li class="list-item-inline "><a href="../area/area.html" class="link  ">Calculate area </a></li>
+            <li class="list-item-inline"><a href="../isTriangle/index.html" class="link  ">Is triangle</a></li>
+            </li>
+        </ul>
+
+    </nav>
     <header>
         <h2>Know the Hypotenuse
         </h2>
-        <span class="hint">formula: hypotenuse, c = √a² + b²
+        <h2 class="hint">formula: hypotenuse, c = √a² + b²
 
-        </span>
+        </h2>
     </header>
 
     <section>
@@ -30,9 +47,9 @@
 
         <button type="submit" id="calculate-hypotenuse">Calculate hypotenuse</button>
 
-        <p id="output" ></p>
     </section>
 
+    <p id="output" class="output">Output display here </p>
 
     <!-- Footer  -->
     <footer class="footer">
