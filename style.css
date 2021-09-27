@@ -6,6 +6,7 @@
 
 body {
   background-color: var(--blue-color);
+  margin: 0;
 }
 a {
   color: var(--dark-blue-color);
@@ -40,9 +41,7 @@ section h2 a {
 }
 /* footer */
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  /* position: fixed; */
   width: 100%;
   color: white;
   text-align: center;
